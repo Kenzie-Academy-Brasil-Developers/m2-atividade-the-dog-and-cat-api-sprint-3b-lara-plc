@@ -1,0 +1,55 @@
+body{
+    background-image: url('Cat-Dog-Wallpaper.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        height: 100%;
+}
+
+#wrapper{
+
+    margin: 70px;
+    display: flex;
+    padding: 3%;
+}
+
+#dog-options{
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 120px;
+}
+
+#cat-options{
+    text-align: center;;
+    margin-right: 20%;
+}
+
+
+#dog{
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+#cat{
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    height: 300px;
+    width: 300px;
+    align-content: center;
+}
+
+img{
+    max-width: 300px;
+    height: 300px;
+}
+
+button{
+    margin-top: 10%;
+    border-radius: 6px;
+    background-color: rgb(250, 224, 243);
+}
+
+p{
+    margin-top: 40%;
+}
